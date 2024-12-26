@@ -17,12 +17,12 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "7487667184:AAF24EpaQJH7491BbxjKqP2nnWSvm1QV-oQ")
-    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "uio21bot") # Bot username without @.
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "ui")
+    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "ui") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "24143260"))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "f65e566d06fc196655413aaf09c9e6e7")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", ""))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
